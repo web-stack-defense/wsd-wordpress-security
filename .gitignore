@@ -1,0 +1,38 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Local environment files
+.env
+.env.local
+*.local
+
+# Backups
+*.bak
+*.backup
+*.orig
+*.tmp
+
+# Logs
+*.log
+
+# Real configuration files (these should never be committed)
+wp-config.php
+wp-config-real.php
+htaccess-real.conf
+nginx-real.conf
+
+# Private notes and drafts
+notes/private/
+drafts/
+*.draft.md

@@ -1,0 +1,47 @@
+==============================================================
+  wp-config.php permissions
+==============================================================
+  [OK]    wp-config.php permissions are 640 (acceptable)
+
+==============================================================
+  World-writable files
+==============================================================
+  [OK]    No world-writable files found
+
+==============================================================
+  World-writable directories
+==============================================================
+  [OK]    No world-writable directories found
+
+==============================================================
+  PHP files in wp-content/uploads
+==============================================================
+  [OK]    No PHP files found in uploads directory
+
+==============================================================
+  Sensitive files in web root
+==============================================================
+  [ISSUE] readme.html present in web root (information disclosure)
+  [ISSUE] license.txt present in web root (information disclosure)
+  [OK]    wp-config-sample.php not present
+  [OK]    debug.log not present
+
+==============================================================
+  Deployment artifacts in web root
+==============================================================
+  [OK]    .git not present
+  [OK]    .svn not present
+  [OK]    .hg not present
+  [OK]    .env not present
+  [OK]    composer.json not present
+  [OK]    package.json not present
+
+==============================================================
+  Ownership consistency
+==============================================================
+  [OK]    All files in top two levels owned by www-data
+
+==============================================================
+  Summary
+==============================================================
+  2 issue(s) found. Review above for details.
