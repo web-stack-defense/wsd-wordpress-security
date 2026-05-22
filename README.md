@@ -1,4 +1,4 @@
-# wsd-wordpress-security
+# WordPress Security
 
 Sanitized WordPress hardening content built from real production WordPress deployments.
 
